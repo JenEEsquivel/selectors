@@ -1,10 +1,10 @@
-/****************************************************************************/
+y/****************************************************************************/
 /*****************************    CHECKLIST    ******************************/
 /****************************************************************************
 
-id selector
-class selector
-attribute selector
+id selector #idName
+class selector .className
+attribute selector Look Up in MDN
 
 relationship selectors:
   descendent
@@ -12,7 +12,7 @@ relationship selectors:
   sibling
 
 pseudo-selectors
-  :hover
+  :hover 
   :first-child
   :last-child
   :nth-child
@@ -26,4 +26,121 @@ pseudo-elements
   :after
 
 ****************************************************************************/
+/*
+#quadrant-sw .col {
+  background-color: green;
+}
+
+#quadrant-nw tbody tr:nth-child(2) .col:nth-child(2) {
+  background-color: black;
+}
+
+.cell:nth-of-type(5) {
+  background-color: #000;
+}
+
+
+.cell:nth-of-type(5) {
+  background-color: #E65E95;
+}
+
+#quadrant-sw .cell {
+  background-color: pink;
+}
+
+#quadrant-sw tbody tr:nth-child(3) .cell:nth-child(3) {
+  background-color: blue;
+}
+
+#quadrant-ne .cell {
+  background-color: #E65E95;
+}
+
+#quadrant-sw .cell {
+  background-color: #E65E95;
+}
+
+.cell:nth-of-type(6) {
+  background-color: blue;
+}
+
+.cell:nth-of-type(2) {
+  background-color: orange;
+}
+#quadrant-sw .cell {
+  background-color: teal;
+}
+thead .cell:nth-child(2) {
+  background-color: black;
+}
+
+tbody tr:nth-child(1) .cell:nth-child(2) {
+  background-color: black;
+}
+*/
+/*---------------------------------------*/
+/*[data-loc=nw-corner] {
+  background-color: black;
+}
+#quadrant-ne .cell {
+  background-color: #D11975;
+}
+*/
+/*
+th {
+  background-color: black;
+}
+#quadrant-ne .cell {
+  background-color: #D11975;
+}
+
+#quadrant-sw tbody tr:nth-child(3) .cell:nth-child(3) {
+  background-color: black;
+
+*/
+
+
+}
+.cell:nth-of-type(5) {
+  background-color: red;
+}
+
+
+
+.cell:nth-of-type(1) {
+  background-color: yellow;
+}
+
+.cell:nth-of-type(2) {
+  background-color: orange;
+}
+
+.cell:nth-of-type(3) {
+  background-color: red;
+}
+
+.cell:nth-of-type(4) {
+  background-color: purple;
+} 
+
+.cell:nth-of-type(5) {
+  background-color: blue;
+}
+
+.cell:nth-of-type(6) {
+  background-color: green;
+}
+
+.cell:nth-of-type(7) {
+  background-color: yellow;
+}
+
+.cell:nth-of-type(8) {
+  background-color: #D11975;
+}
+
+#quadrant-nw .cell {
+  background-color: #D11975;
+}
+
 
